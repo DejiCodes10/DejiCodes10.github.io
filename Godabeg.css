@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif ;
+    
+}
+
+
+.hero{
+    width: 100%;
+   /*height: 100vh;*/
+    padding-left: 4%;
+    padding-right: 3%;
+    background:#fff;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 18px 0%;
+}
+
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.navbar .logo .zig{
+    display: block;
+    width:90px;
+    margin-right: 10px;
+}
+
+.navbar img{
+    width: 30px;
+    display: none;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    text-align: right;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 20px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+
+.wwd{
+    margin-bottom: 90px;
+}
+
+
+.main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    width: 100%;
+    
+}
+
+.main h1{
+    margin-top: 50px;
+    font-size: 60px;
+    line-height: 1.4em;
+}
+
+.txt p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 70%;
+    text-align: start;
+}
+
+.f2 p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 70%;
+    text-align: start;
+}
+
+.blue{
+    color: #18acfe;
+}
+
+.main img{
+    width: 800px;
+    border-radius: 50%;
+}
+
+.main button{
+    margin-top: 40px;
+    padding: 20px 45px;
+    border-radius: 12px;
+    border-color: transparent;
+   background: #18acfe;
+}
+
+.main button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.txt2{
+    display: flex;
+    align-items: top;   
+    margin: 50px 0 0px 0px;
+}
+
+.txt2 h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.txt2 h4{
+    font-size: 20px;
+    margin-left: 320px;
+}
+
+
+.sub{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.sub img{
+    width: 500px;
+    height: 400px;
+}
+
+.line{
+    width: 30%;
+    height: 7px;
+    border-radius: 10px;
+    background: #18acfe;
+    display: flex;
+}
+
+.sub .f2{
+    margin-left:100px;
+    width: 100%;
+}
+
+.f2 h3{
+    font-size: 30px;
+    margin: 10px 0px 10px 0px;
+}
+
+.f2 p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 100%;
+    text-align: start;
+    
+}
+
+.f2 button{
+    padding: 10px 30px;
+    margin: 10px 0px;
+    color: #fff;
+    background: #000;
+}
+
+.f2 button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+.whatwedo{
+    background: #222;
+    color: #fff;
+    padding-bottom: 10%;
+    font-family: 'Montserrat';
+}
+
+.Wtxt{
+    padding: 4% 3% 2% 3%;
+}
+
+.Wtxt h1{
+    font-size:60px;
+    margin-bottom: 25px;
+}
+
+.Wtxt p{
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.goals{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.goalstxt{
+    margin-left: 15px;
+}
+.goalstxt h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: #00ffac;
+}
+
+.goalstxt p{
+    font-size:22px;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.goals img{
+    width: 45%;
+}
+
+.Gallery{
+    padding: 4% 3% 2% 3% ;
+}
+
+.Gallery h1{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Gallery h4{
+    font-size: 40px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0;
+    width: 50%;
+    line-height: 1.6em;
+}
+
+.items img{
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center center ;
+}
+
+.itemstxt h3{
+    font-size: 40px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.itemstxt p{
+    font-size: 40px;
+    font-weight: 100px;
+    line-height: 1.6em;
+}
+
+.itemstxt button{
+    padding: 15px 35px;
+    margin: 10px 0px;
+    color: #fff;
+    background: #000;
+}
+
+.itemstxt button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.Contact{
+    margin-top: 140px;
+}
+
+.Contact h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin: 40px;
+}
+
+.Contact small{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    margin: 20px;
+}
+
+
+.hero2{
+    width: 90%;
+    height: 100vh; 
+    margin: auto; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.input-group{
+    
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: 10px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #000;
+    background: transparent;
+    font-size: 15px;
+}
+
+.submit{
+    display: flex;
+    margin: auto;
+    padding: 15px 40px;
+    background: #18acfe;
+    outline: none;
+    border: 2px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.line1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:900px){
+  
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .navbar ul{
+        width: 100%;
+        background:#18acfe;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+    .navbar ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .navbar ul li a{
+        color: #fff;
+        display: block;
+    }
+    .navbar .menuIcon{
+        display: block;
+    }
+
+    .zig{
+        width: 60px;
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+  
+  
+  
+    .txt2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .txt2 h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .txt2 h4{
+        margin-left: 0;
+        text-align: center;
+    }
+  
+  
+  
+  
+  
+  
+    .main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 10px; 
+  }
+
+  .main .txt{
+    text-align: center;
+   
+  }
+
+  .main button{
+    margin-top: 20px;
+  }
+
+  .txt p{
+    text-align: center;
+    width: 100%;
+  }
+
+
+  .main .txt h1{
+    font-size: 30px;
+  }
+
+  .main .txt p{
+    margin: 0 ;
+  }
+
+ button{
+    margin: 10px 0;
+ }
+
+
+  .main img{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sub .f2{
+    margin-left:0px;
+    width: 100%;
+}
+
+.sub img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center center ;
+}
+
+.f2 button{
+   /* transform: translateX(70%); */   
+    padding: 15px 30px;
+    display: flex;
+    margin: 20px auto;
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+
+
+.sub .f2 h3{
+    text-align: center;
+}
+
+.line{
+    width: 30%;
+    height: 7px;
+    border-radius: 10px;
+    background: #18acfe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.Wtxt h1{
+    font-size: 40px;
+}
+
+.Wtxt p{
+    font-size: 16px;
+    line-height: 2em;
+}
+.goals img{
+    width: 50%;
+}
+.goalstxt h3{
+    font-size: 25px;
+}
+
+.goalstxt p{
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+.Gallery h1{
+    font-size: 30px;
+}
+
+.Gallery h4{
+    font-size: 15px;
+    width: 70%;
+}
+
+.itemstxt button{
+    padding: 10px 26px;
+    margin: 8px 0px;
+    color: #fff;
+    background: #000;
+}
+
+.itemstxt h3{
+    padding: 8px 0;
+}
+
+.items img{ 
+    width: 100%;
+    height:45vh;
+    display: flex;
+    margin: auto;
+}
+
+
+.items h3{
+    font-size: 20px;
+   
+}
+
+.items p{
+    font-size:14px ;
+}
+
+.hero2{
+    width: 90%;
+    height: 100vh; 
+    margin: auto; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Contact h1{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.Contact small{
+    font-size: 20px;
+}
+
+
+}
+
+
+ 
